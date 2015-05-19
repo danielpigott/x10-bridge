@@ -1,0 +1,9 @@
+devices:
+  a4:
+    actions:
+      on:
+        type: http
+        options:
+          host: "192.168.1.100"
+          port: 3480
+          path: "/data_request?id=action&DeviceNum=35&serviceId=urn:dcineco-com:serviceId:VMotion1&action=SetTripped&output_format=json"
